@@ -1,10 +1,8 @@
 [project]
-name = "redis-cache-url"
-version = "0.1.0"
+name = ""
+version = ""
 description = "Default template for PDM package"
-authors = [
-    {name = "RealGecko", email = "alexandrbezenkov@gmail.com"},
-]
+authors = [{ name = "RealGecko", email = "alexandrbezenkov@gmail.com" }]
 dependencies = [
     "django==4.2",
     "django-redis>=5.4.0",
@@ -16,7 +14,7 @@ dependencies = [
 ]
 requires-python = "==3.11.*"
 readme = "README.md"
-license = {text = "MIT"}
+license = { text = "MIT" }
 
 
 [tool.pdm]
